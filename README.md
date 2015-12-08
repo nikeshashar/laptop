@@ -55,7 +55,7 @@ What it sets up
 * [Node.js] and [NPM], for running apps and installing JavaScript packages
 * [Postgres] for storing relational data
 * [Qt] for headless JavaScript testing via Capybara Webkit
-* [Rbenv] for managing versions of Ruby
+* [RVM] for managing versions of Ruby
 * [RCM] for managing company and personal dotfiles
 * [Redis] for storing key-value data
 * [Ruby Build] for installing Rubies
@@ -75,7 +75,7 @@ What it sets up
 [NPM]: https://www.npmjs.org/
 [Postgres]: http://www.postgresql.org/
 [Qt]: http://qt-project.org/
-[Rbenv]: https://github.com/sstephenson/rbenv
+[RVM]: https://www.rvm.io/
 [RCM]: https://github.com/thoughtbot/rcm
 [Redis]: http://redis.io/
 [Ruby Build]: https://github.com/sstephenson/ruby-build

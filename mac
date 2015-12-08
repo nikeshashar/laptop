@@ -147,7 +147,7 @@ brew_install_or_upgrade 'qt'
 brew_install_or_upgrade 'hub'
 brew_install_or_upgrade 'node'
 
-brew_install_or_upgrade 'rbenv'
+brew_install_or_upgrade 'rvm'
 brew_install_or_upgrade 'ruby-build'
 
 # shellcheck disable=SC2016
@@ -185,4 +185,12 @@ fi
 
 if [ -f "$HOME/.laptop.local" ]; then
   . "$HOME/.laptop.local"
+  brew_tap 'caskroom/cask'
+  brew_install_or_upgrade 'brew-cask'
+
+  brew cask install dropbox
+  brew cask install google-chrome
+  
+  brew_install_or_upgrade 'tree'
+
 fi
